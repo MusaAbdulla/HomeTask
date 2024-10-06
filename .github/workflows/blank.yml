@@ -1,0 +1,45 @@
+//-----hometask1-------//
+int m = int.Parse(Console.ReadLine());
+int s = int.Parse(Console.ReadLine());
+int power = 1;
+
+for (int i = 1; i < m; i++)
+{
+    power *= m;
+
+    Console.WriteLine(power);
+
+
+}
+//---------------------//
+//--------hometask2---------//
+int num = int.Parse(Console.ReadLine());
+if (num < 0)
+{ 
+    Console.WriteLine("Müsbet eded daxil edin");
+}
+int reqem = 0;
+while (num != 0)
+{
+   num /= 10;  
+   reqem++;
+}
+Console.WriteLine($"Mertebe sayı: {reqem}");
+//--------------------------//
+//-----------hometask3------//
+int[] numbers = { 1, 4, 34, 21, 8, 9, 54, 3 };
+int a = 0;
+
+for (int i = 0; i < numbers.Length; i++)
+{
+    int number = numbers[i];
+    if (number < 10)
+
+   {
+       a++;
+    }
+
+}
+
+    Console.WriteLine(a);
+//-----------------------------------------//
